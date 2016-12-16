@@ -1,4 +1,4 @@
-FROM davefx/trusty-php-selenium-headless
+FROM davefx/trusty-php-selenium-headless:latest
 ENV LC_ALL C
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NONINTERACTIVE_SEEN true
